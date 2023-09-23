@@ -47,7 +47,7 @@ def ask_model(message, model, instruction=False):
 
 
 def ask(message, instruction=False):
-    return ask_model(message, model, instruction)
+    return replace_info(ask_model(message, model, instruction))
 
 
 def main():
