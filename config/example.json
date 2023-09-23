@@ -1,11 +1,24 @@
 {
   "telegram_bot": {
-    "key": "TELEGRAM_BOT_KEY",
-    "username": "TELEGRAM_BOT_USERNAME",
-    "name": "TELEGRAM_BOT_DISPlAY_NAME"
+    "token": "telegram_token",
+    "username": "bot_username",
+    "name": "bot_name",
+    "keywords": [
+      "wifi",
+      "printer",
+      "print",
+      "wiki",
+      "frotator",
+      "lounge computer"
+    ]
   },
   "model": {
     "path": "declare-lab/flan-alpaca-gpt4-xl",
     "prompt_path": "./config/prompt.txt"
+  },
+  "info": {
+    "COMPTROLLER NAME": "redacted",
+    "WIFI PASSWORD": "redacted",
+    "COMPUTER PASSWORD": "redacted"
   }
 }
