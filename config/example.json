@@ -1,0 +1,11 @@
+{
+  "telegram_bot": {
+    "key": "TELEGRAM_BOT_KEY",
+    "username": "TELEGRAM_BOT_USERNAME",
+    "name": "TELEGRAM_BOT_DISPlAY_NAME"
+  },
+  "model": {
+    "path": "MBZUAI/LaMini-T5-738M",
+    "prompt_path": "INFO_THE_BOT_GETS_BEFORE_THE_USER_INPUT"
+  }
+}
