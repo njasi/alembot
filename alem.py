@@ -25,6 +25,7 @@ def replace_info(text):
     info = CONFIG["info"]
     for key in info:
         text = text.replace(key, info[key])
+    return text
 
 
 def generate_full_prompt(message, instruction):
