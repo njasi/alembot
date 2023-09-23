@@ -24,7 +24,7 @@ def replace_info(text):
     '''
     info = CONFIG["info"]
     for key in info:
-        text = text.replace(key, info[key])
+        text = text.lower().replace(key.lower(), info[key])
     return text
 
 
